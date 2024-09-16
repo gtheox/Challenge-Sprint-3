@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import backgroundImage from '../assets/img/background.jpg';
 
-export const BackgroundDiv = styled.div
+export const BackgroundDiv = styled.div`
     background-image: url(${backgroundImage});
     font-family: "Aleo", sans-serif;
     margin: 0;
@@ -9,9 +9,10 @@ export const BackgroundDiv = styled.div
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center; 
+    `
 ;
 
-export const MainSection = styled.div
+export const MainSection = styled.div`
     font-family: "Aleo", sans-serif;
     margin-top: 1;
     padding: 0;
@@ -38,4 +39,4 @@ p {
     font-size: 25px;   
     font-family: "Aleo";
 }
-;
+`;

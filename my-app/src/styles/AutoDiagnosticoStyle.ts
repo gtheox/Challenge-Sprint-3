@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import backgroundImage from '../assets/img/background.jpg';
 
-export const BackgroundDiv = styled.div
+export const BackgroundDiv = styled.div`
     background-image: url(${backgroundImage});
     font-family: "Aleo", sans-serif;
     margin: 0;
@@ -9,8 +9,8 @@ export const BackgroundDiv = styled.div
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center; 
-;
-export const Formulario = styled.form
+`;
+export const Formulario = styled.form`
 display: flex;
     justify-content: center;
     align-items: center;
@@ -60,4 +60,4 @@ button[type="submit"]:hover {
     background-color: #0088CC;
 }
 
-;
+`;

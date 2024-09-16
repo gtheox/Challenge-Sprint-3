@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BackgroundDiv } from '../styles/MainContentStyle';
-import { Formulario } from '../styles/AutoDIagnosticoStyle';
+import { Formulario } from '../styles/AutoDiagnosticoStyle';
 
 const AutoDiagnostico: React.FC = () => {
   const navigate = useNavigate();
 
-
+  
   useEffect(() => {
     const email = window.localStorage.getItem('email');
-
+    
     if (!email) {
-
+      
       navigate('/perfil');
     }
   }, [navigate]);

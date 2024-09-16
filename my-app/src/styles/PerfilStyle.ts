@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
-export const ListaDupla = styled.div
+export const ListaDupla = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem; /* Espaço entre os formulários */
   padding: 2rem;
-;
+`;
 
-export const FormWrapper = styled.div
+export const FormWrapper = styled.div`
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -55,4 +55,4 @@ export const FormWrapper = styled.div
   button[type="submit"]:hover {
     background-color: #0088CC;
   }
-;
+`;

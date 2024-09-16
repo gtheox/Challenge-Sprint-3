@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div
+export const Container = styled.div`
   padding: 2rem;
   text-align: center;
 
@@ -15,9 +15,9 @@ export const Container = styled.div
     font-family: "Aleo", sans-serif;
     font-size: 20px;
   }
-;
+`;
 
-export const Fotos = styled.nav
+export const Fotos = styled.nav`
   display: flex;
   justify-content: center;
   padding: 2rem;
@@ -58,9 +58,9 @@ export const Fotos = styled.nav
     font-size: 25px;
     font-family: "Aleo", sans-serif;
   }
-;
+`;
 
-export const RepoLink = styled.h2
+export const RepoLink = styled.h2`
   text-align: center;
   color: #fff;
   
@@ -68,4 +68,4 @@ export const RepoLink = styled.h2
     text-decoration: none;
     color: #fff;
   }
-;
+`;
