@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+Projeto Auto Diagnóstico - AutoCare 🚗
+Integrantes:
+Gabriel Teodoro Gonçalves Rosa - RM: 555962
+Luka Yuiti Ura Shibuya - RM: 558123
+Eduardo Ribeiro Giovannini - RM: 555030
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositório:
+[Link do repositório no GitHub](https://github.com/gtheox/challenge-sprint-2.git)
 
-Currently, two official plugins are available:
+Video de Apresentação:
+[Assista à apresentação no YouTube](https://youtu.be/bwlE34WElaA)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Como utilizar:
+1- Inicie um terminal
+2- Clone o repositório
+3- Utilize o comando "cd" + nome da pasta até conseguir acessar a pasta chamada my-app
+4- Utilize o comando "npm install", "npm i styled-components" e "npm i react-router-dom" para instalar as dependências caso não as tenha
+5- Utilize o comando "npm run dev" para iniciar o projeto
+6- Acesse o projeto no navegador através do endereço "http://localhost:xxxxxx" que sera fornecido
+7- Utilize o projeto contará com uma página princiapal e funções de links para as outras paginas do projeto
+8- A página de auto diagnóstico só sera disponibilizada após o login na pagina perfil (caso não esteja conectado sera redirecionado para a pagina de login, caso não tenha conta faça registro)
